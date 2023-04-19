@@ -1,4 +1,6 @@
 insert into
-    users(email, password)
+    users (email, password)
 values
-    (admin@gmail.com,'{noop}123')
+    ('admin@example.com', '{noop}adminpass'),
+    ('user@example.com', '{noop}userpass'),
+    ('editor@example.com', '{noop}editorpass');
